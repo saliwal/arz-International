@@ -1,0 +1,189 @@
+body, header, div, img, nav, ul, li, a{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif ;
+}
+
+.sub {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+    max-width: 1300px;
+    margin: auto;
+
+}
+
+nav{
+    display: flex;
+}
+.ii, #ii{
+    margin-top: 10px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.ii{
+    display: none;
+}
+
+nav ul{
+    list-style-type: none;
+    padding-right: 10px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: #666;
+}
+/* First area to deal with  */
+
+.front{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.front .cover-page{
+    flex-basis: 50%;
+    min-width: 300px;
+    padding: 50px 0;
+    margin-top: 70px;
+}
+
+.front h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 50px 0;
+}
+.button{
+    display: inline-block;
+    background-color: #ff523b;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 15px 0;
+    border-radius: 50px;
+    transition: background-color 0.5s;
+}
+
+.main{
+    background: radial-gradient(rgb(236, 166, 236),rgb(226, 191, 125));
+}
+
+
+.button:hover{
+    background-color:orange ;
+}
+
+/* This is for features  */
+
+.sec-2{
+    margin-top: 100px;
+}
+
+.fronts{
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+.title{
+    text-align: center;
+}
+.title hr{
+    width: 10%;
+}
+
+.title h1{
+    margin-bottom: 10px;
+}
+#j{
+    margin-bottom: 30px;
+}
+.col-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: black 4px left;
+    transition: tranform 0.5s;
+}
+
+.icon{
+    display: flex;
+
+}
+
+.icon i{
+    color: orangered;
+    margin: 10px 0;
+}
+.col-1 h1, .col-1 h2{
+    margin: 2px;
+    text-align: center;
+}
+.col-1 img:hover{
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+    transform: translateX(5%);
+   
+}
+
+/* This is for the footer */
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+}
+
+/* this is for the products page  */
+
+.product-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 40px;
+}
+
+.product-header select{
+    margin-top: 20px;
+    height: 20px;
+    border: solid rgb(13, 245, 168) 1px;
+}
+
+.product-header select:focus{
+    outline:none;
+    
+}
+
+/* this is for pages  */
+.pages{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.pages span{
+    border: 1px solid coral;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    
+}
+
+.pages span:hover{
+    background-color: coral;
+    transition: background-color 5s;
+}
+
