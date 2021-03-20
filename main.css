@@ -185,3 +185,78 @@ footer{
     transition: background-color 5s;
 }
 
+/* Product details page */
+
+.clasic-details{
+    display: flex;
+}
+
+.bag-info{
+    padding-top: 100px;
+}
+
+.btn button, .selection label, .bag-info h1, .bag-info h4, .bag-info h5{
+    margin-left: 50px ;
+}
+
+.bag-info h4{
+    color: #ff523b;
+}
+
+.bag-info p{
+    text-align: justify;
+    padding: 0 50px;
+}
+
+/* This is for selection  */
+.selection{
+    margin-top: 30px;
+}
+
+.selection label{
+   color: #ff523b;
+}
+
+.selection select, .selection input{
+    height: 25px;
+}
+
+.selection select:focus, .selection input:focus{
+    outline: none;
+}
+
+.selection input{
+    width: 50px;
+}
+
+.btn button:last-child{
+    margin-left: 10px;
+    background-color: tomato;
+}
+
+.btn button{
+    color: white;
+    background-color: black;
+    width: 120px;
+    height: 40px;
+    margin-top: 40px;
+    border-radius: 15px;
+    outline: none;
+    cursor: pointer;
+
+}
+
+.discount{
+    display: flex;
+    align-items: center;
+    
+}
+
+.discount p {
+    margin-left: 0;
+    margin-right: 50px;
+}
+
+.discount input{
+    margin-right: 0;
+}
